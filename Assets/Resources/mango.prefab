@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2601620114635521041}
   - component: {fileID: 3215430145367437794}
   - component: {fileID: 3179676467779479431}
-  - component: {fileID: 5359387513027763267}
   - component: {fileID: 1222628455991623068}
+  - component: {fileID: -1721651377618133146}
   m_Layer: 7
   m_Name: mango
   m_TagString: Untagged
@@ -160,21 +160,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5359387513027763267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8974099596434618407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a360651aff45f448f3ecf721fd9712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canBeDragged: 1
-  returnToInitialPosition: 1
-  returnSpeed: 5
 --- !u!114 &1222628455991623068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,11 +178,17 @@ MonoBehaviour:
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  canBeDraggedWhenWhole: 1
-  canBeDraggedWhenSliced: 1
-  returnToInitialPosition: 0
-  vegetableSortingLayer: Vegetables
-  slicedSortingLayer: Vegetables
-  vegetableSortingOrder: 1
-  slicedSortingOrder: 0
   timeToSlice: 1.5
+--- !u!114 &-1721651377618133146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8974099596434618407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b14939c421b01e4ead1119d51f4b005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundsPadding: 0.5

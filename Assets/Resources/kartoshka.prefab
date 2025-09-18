@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3216737920662459910}
   - component: {fileID: 1250184324987431884}
   - component: {fileID: 2286240258749432817}
-  - component: {fileID: 2310770943756546923}
   - component: {fileID: 7407080095370990009}
+  - component: {fileID: 8624043485351407723}
   m_Layer: 7
   m_Name: kartoshka
   m_TagString: Untagged
@@ -160,21 +160,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2310770943756546923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8725280702185793778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a360651aff45f448f3ecf721fd9712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canBeDragged: 1
-  returnToInitialPosition: 1
-  returnSpeed: 5
 --- !u!114 &7407080095370990009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,16 +173,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wholeSprite: {fileID: 21300000, guid: 6c133d6158032a344ae399e755295b36, type: 3}
-  slicedSprite: {fileID: 21300000, guid: abeb76c902d772d41ae015e5111855d8, type: 3}
+  slicedSprite: {fileID: 21300000, guid: f6881dce61b569b4293289f95b9f40c7, type: 3}
   wholeSize: {x: 6.66, y: 6.72}
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  canBeDraggedWhenWhole: 1
-  canBeDraggedWhenSliced: 1
-  returnToInitialPosition: 0
-  vegetableSortingLayer: Vegetables
-  slicedSortingLayer: Vegetables
-  vegetableSortingOrder: 1
-  slicedSortingOrder: 0
   timeToSlice: 1.5
+--- !u!114 &8624043485351407723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725280702185793778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b14939c421b01e4ead1119d51f4b005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundsPadding: 0.5

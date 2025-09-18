@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1489106777724238595}
   - component: {fileID: 677354329493514752}
   - component: {fileID: 4796742339301700044}
-  - component: {fileID: 8640891830825902337}
   - component: {fileID: 9202675802941546441}
+  - component: {fileID: -8715958828237717497}
   m_Layer: 7
   m_Name: banan
   m_TagString: Untagged
@@ -160,21 +160,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8640891830825902337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5664548945467881105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a360651aff45f448f3ecf721fd9712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canBeDragged: 1
-  returnToInitialPosition: 1
-  returnSpeed: 5
 --- !u!114 &9202675802941546441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,11 +178,17 @@ MonoBehaviour:
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  canBeDraggedWhenWhole: 1
-  canBeDraggedWhenSliced: 1
-  returnToInitialPosition: 0
-  vegetableSortingLayer: Vegetables
-  slicedSortingLayer: Vegetables
-  vegetableSortingOrder: 1
-  slicedSortingOrder: 0
   timeToSlice: 1.5
+--- !u!114 &-8715958828237717497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664548945467881105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b14939c421b01e4ead1119d51f4b005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundsPadding: 0.5

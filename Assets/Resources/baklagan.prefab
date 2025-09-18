@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7919160751578024534}
   - component: {fileID: 2674701501876925396}
   - component: {fileID: 1889676117961381825}
-  - component: {fileID: 143753860483115495}
   - component: {fileID: 870375615916258014}
   m_Layer: 7
   m_Name: baklagan
@@ -160,21 +159,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &143753860483115495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 228697226717560225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a360651aff45f448f3ecf721fd9712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canBeDragged: 1
-  returnToInitialPosition: 1
-  returnSpeed: 5
 --- !u!114 &870375615916258014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,16 +172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wholeSprite: {fileID: 21300000, guid: 58dce3b78a9f54341b229c58072e46d0, type: 3}
-  slicedSprite: {fileID: 21300000, guid: abeb76c902d772d41ae015e5111855d8, type: 3}
+  slicedSprite: {fileID: 21300000, guid: 4f5e89abe93d42c4295362ad8406f33b, type: 3}
   wholeSize: {x: 6.66, y: 6.72}
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  canBeDraggedWhenWhole: 1
-  canBeDraggedWhenSliced: 1
-  returnToInitialPosition: 0
-  vegetableSortingLayer: Vegetables
-  slicedSortingLayer: Vegetables
-  vegetableSortingOrder: 1
-  slicedSortingOrder: 0
   timeToSlice: 1.5

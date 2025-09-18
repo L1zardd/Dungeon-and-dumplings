@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3353115636693948025}
   - component: {fileID: 8433859158245313201}
   - component: {fileID: 2830332433825695317}
-  - component: {fileID: 9216019556077132602}
   - component: {fileID: 3945143983297634080}
+  - component: {fileID: 5358822736486242735}
   m_Layer: 7
   m_Name: brokkoli
   m_TagString: Untagged
@@ -160,21 +160,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &9216019556077132602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269539497355391246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8a360651aff45f448f3ecf721fd9712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canBeDragged: 1
-  returnToInitialPosition: 1
-  returnSpeed: 5
 --- !u!114 &3945143983297634080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,11 +178,17 @@ MonoBehaviour:
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  canBeDraggedWhenWhole: 1
-  canBeDraggedWhenSliced: 1
-  returnToInitialPosition: 0
-  vegetableSortingLayer: Vegetables
-  slicedSortingLayer: Vegetables
-  vegetableSortingOrder: 1
-  slicedSortingOrder: 0
   timeToSlice: 1.5
+--- !u!114 &5358822736486242735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269539497355391246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b14939c421b01e4ead1119d51f4b005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundsPadding: 0.5
