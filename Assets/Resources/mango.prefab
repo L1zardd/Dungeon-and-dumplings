@@ -174,11 +174,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wholeSprite: {fileID: 21300000, guid: 0c7b3b3faeb49d44c88ac9f152db6400, type: 3}
   slicedSprite: {fileID: 21300000, guid: abeb76c902d772d41ae015e5111855d8, type: 3}
+  vegetableType: mango
   wholeSize: {x: 6.66, y: 6.72}
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  timeToSlice: 1.5
+  timeToSlice: 0.5
 --- !u!114 &-1721651377618133146
 MonoBehaviour:
   m_ObjectHideFlags: 0

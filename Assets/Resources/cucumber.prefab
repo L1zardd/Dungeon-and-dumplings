@@ -174,11 +174,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wholeSprite: {fileID: 21300000, guid: 35c2070d370936746903f26f6d2e8345, type: 3}
   slicedSprite: {fileID: 21300000, guid: abeb76c902d772d41ae015e5111855d8, type: 3}
+  vegetableType: cucumber
   wholeSize: {x: 6.66, y: 6.72}
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  timeToSlice: 1.5
+  timeToSlice: 0.5
 --- !u!114 &8759626928000453719
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3945143983297634080}
   - component: {fileID: 5358822736486242735}
   m_Layer: 7
-  m_Name: brokkoli
+  m_Name: broccoli
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,11 +174,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wholeSprite: {fileID: 21300000, guid: 811d1558ec8e8e74a958bbce0906b2d2, type: 3}
   slicedSprite: {fileID: 21300000, guid: abeb76c902d772d41ae015e5111855d8, type: 3}
+  vegetableType: broccoli
   wholeSize: {x: 6.66, y: 6.72}
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  timeToSlice: 1.5
+  timeToSlice: 0.5
 --- !u!114 &5358822736486242735
 MonoBehaviour:
   m_ObjectHideFlags: 0

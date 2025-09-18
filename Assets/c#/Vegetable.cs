@@ -5,6 +5,9 @@ public class Vegetable : MonoBehaviour
     public Sprite wholeSprite;
     public Sprite slicedSprite;
 
+    [Header("Cooking Settings")]
+    public string vegetableType;
+
     [Header("Size Settings")]
     public Vector2 wholeSize = Vector2.one;
     public Vector2 slicedSize = Vector2.one;
@@ -104,5 +107,10 @@ public class Vegetable : MonoBehaviour
     public void ResetVegetable()
     {
         InitializeVegetable();
+    }
+
+    public string GetVegetableType()
+    {
+        return vegetableType;
     }
 }

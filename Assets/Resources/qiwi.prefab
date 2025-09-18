@@ -174,11 +174,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wholeSprite: {fileID: 21300000, guid: 86a92b360e7fab14d97d7573362ae07b, type: 3}
   slicedSprite: {fileID: 21300000, guid: b036dad7846e1da4fa9a2c0d202a797e, type: 3}
+  vegetableType: qiwi
   wholeSize: {x: 6.66, y: 6.72}
   slicedSize: {x: 2.92, y: 8.34}
   wholeScale: {x: 1, y: 1, z: 1}
   slicedScale: {x: 1, y: 1, z: 1}
-  timeToSlice: 1.5
+  timeToSlice: 0.5
 --- !u!114 &1228726566213155457
 MonoBehaviour:
   m_ObjectHideFlags: 0
